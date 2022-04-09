@@ -447,3 +447,102 @@
     color: #ccc;
     font-size: 16px;
 }
+
+.item-2-header h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #4b4b4b;
+}
+
+.item-2-header .stars i.active {
+    color: #f06d6e;
+    font-size: 20px;
+}
+
+.item-2-header .stars i {
+    color: #ccc;
+    font-size: 20px;
+}
+
+.item-content form .form-label {
+    font-size: 16px;
+    line-height: 29px;
+    color: #4b4b4b;
+    font-weight: 500;
+}
+
+.item-content form textarea {
+    resize: none;
+    height: 200px;
+    max-width: 752px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #c9d8d8;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 8px 15px; 
+}
+
+
+.item-content form .stars i {
+    color: #ccc;
+}
+
+.item-content form .stars i.active, .item-content form .stars i:hover {
+    color: #f06d6e;
+}
+
+
+.item-content .smit-btn {
+    border-radius: 20px;
+    background-color: #f06d6e;
+    padding: 10px 1rem;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.item-content .upload {
+
+}
+
+
+.item-content .upload {
+    margin-top: 2px;
+}
+
+.item-content .upload .form-label {
+    border-radius: 20px;
+    background-color: #32d1d0;
+    padding: 10px 1rem;
+    font-size: 14px;;
+    color: #fff;
+    font-weight: 400;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item-content .upload i {
+    font-size: 13px;
+    color: #fff;
+    margin-right: 1rem;
+}
+
+.item-content .upload input  {
+    border-radius: 20px;
+    background-color: #fff;
+    border: 1px solid #c9d8d8;
+    font-size: 16px;
+    color: #b2b1b1;
+    font-weight: 400;
+    padding: 10px 15px;
+    width: 90%;
+    display: none;
+}
