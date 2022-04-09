@@ -1,0 +1,449 @@
+/*card*/
+.card-item {
+  border-radius: 10px;
+  background-color: #f4fafa;
+  padding: 15px 25px;
+  margin-bottom: 20px;
+}
+
+.card-sm-title h4 {
+    font-size: 12px;
+    color: #f06d6e;
+    text-transform: uppercase;
+}
+
+.card-xl-title h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #21bab9;
+    text-transform: capitalize;
+}
+
+.card-item-body {
+    margin-top: 10px;
+    height: 70px;
+}
+
+.card-item-body .box {
+    opacity: .1;
+    background-color: #21bab9;
+    width: 60px;
+    height: 60px;
+    margin-right: 5px;
+    border-radius: 10px;
+}
+
+.card-item-body .box span {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.card-item-footer {
+    margin-top: 8px;
+}
+
+.card-item-footer .card-text span,
+.card-item-footer .card-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #4b4b4b;
+    text-decoration: none;
+}
+
+.card-item-footer p {
+    font-size: 14px;
+    text-overflow: ellipsis;
+}
+
+.see-all {
+    width: 100%;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.see-all .btn-dangers {
+    padding: 10px 3rem;
+}
+
+.see-all .btn-dangers:hover {
+    color: white;
+    opacity: .9;
+}
+
+/*profile*/
+.doctors .doctor {
+    background: white!important;
+}
+
+.profile-body {
+    margin-top: 1rem;
+}
+
+.profile-body-header {
+    border-top-right-radius: 13px;
+    border-top-left-radius: 13px;
+    padding: 10px 5px 6px;
+    position: relative;
+}
+.profile-body-header:after {
+    content: "";
+    position: absolute;
+    border-radius: 1px;
+    background-color: #b4d8d8;
+    height: 2px;
+    width: calc(100% );
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.profile-body-header li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.profile-body-header li a {
+    padding: 0 10px 0 11px;
+    font-size: 18px;
+    color: #b4d8d8;
+    font-weight: 500;
+    text-decoration: none;
+    display: block;
+}
+
+.profile-body-header li.active a {
+    color: #209392;
+}
+
+.profile-body-body {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*about*/
+.accs .accordion {
+  background-color: #f4fafa;
+  color: #444;
+  cursor: pointer;
+  padding: 10px 1rem;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 17px;
+  font-weight: 600;
+  transition: 0.4s;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.accs  .accs-item {
+    margin-top: 10px;
+}
+
+.accs .accs-item:first-child {
+    margin-top: 0;
+}
+
+.accs .active, .accordion:hover {
+  background-color: #21bab9;
+}
+
+.accs .accordion:after {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "";
+    background: 0;
+    font-size: 16px;
+    color: #32d1d0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin-left: auto;
+    flex-shrink: 0;
+    right: 2rem;
+}
+
+.accs .active:after {
+  content: "\2212";
+}
+
+.accs .panel {
+  padding: 0 2rem;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accs .timeline {
+    margin: 0 0;
+    position: relative;
+}
+
+.accs .timeline:first-child {
+    margin-top: 5px;
+}
+
+.accs .timeline::after {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: #b4d8d8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin-left: -3px;
+}
+
+.accs .timeline .circle {
+    padding: 10px 10px;
+    position: relative;
+    background-color: inherit;
+}
+
+.accs .timeline .circle::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: -6.8px;
+    background-color: white;
+    border: 2px solid #b4d8d8;
+    top: 0;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.panel-title h2 {
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.panel-title strong {
+    color: #4b4b4b;
+}
+
+.panel-desc {
+    font-size: 14px;
+}
+
+.panel-desc h2 {
+    font-size: 16px;
+    color: #b7b7b7;
+    font-weight: 400;
+    line-height: 0px;
+}
+
+.tablinks {
+    cursor: pointer;
+}
+
+.contact-info ul li {
+    line-height: 1rem;
+}
+
+.contact-info ul li h3 {
+    line-height: 14px;
+    font-size: 16px;
+    color: #21bab9;
+}
+
+.contact-info ul li h4  {
+    line-height: 14px;
+    font-size: 15px;
+    color: #4b4b4b;
+}
+
+.contact-info ul {
+    margin: 1rem 10px;
+}
+
+.review-header .btn-dangers {
+    padding: 10px 3rem;
+    margin-left: 8px;
+}
+
+.review-header .btn-dangers:hover {
+    color: white;
+    opacity: .5;
+}
+
+.review-header span {
+    color: 4b4b4b;
+    font-size: 16px;
+}
+
+/*select*/
+.custom-select {
+    position: relative;
+    font-family: Arial;
+    border: 1px solid #ccc;
+    border-radius: 100px;
+    white-space: nowrap;
+    width: 300px!important;
+}
+
+.custom-select select {
+    display: none; 
+}
+
+.select-selected {
+    border: 1px solid #ccc;
+    color: black;
+
+}
+
+
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 18px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #21bab9 transparent transparent transparent;
+}
+
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #21bab9 transparent;
+    top: 10px;
+}
+
+
+.select-items div,.select-selected {
+    color: black;
+    padding: 8px 10px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.select-items {
+    position: absolute;
+    background-color: #21bab9;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+
+.select-hide {
+    display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 768px) {
+    .review-header .right {
+        display: flex;
+        flex-direction: column;
+    }
+    .review-header .btn-dangers {
+        white-space: nowrap;
+        margin-top: 5px;
+        font-size: 14px;
+        text-align: center;
+        padding: 5px 5px!important;
+        margin-left: 0;
+        border-radius: 5px;
+    }
+    .review-header span {
+        font-size: 14px;
+    }
+    .review-body {
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-info ul li h3 {
+        line-height: 15px;
+        font-size: 14px;
+    }
+
+    .contact-info ul li h4  {
+        line-height: 15px;
+        font-size: 14px;
+        color: #4b4b4b;
+    }
+
+    .contact-info ul {
+        margin: 1rem 5px;
+    }
+}
+
+
+/*reviews*/
+.reviews-body-body .img  img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.reviews-body-body .details {
+    margin-left: 1rem;
+}
+
+.reviews-body-body .details h3 {
+    line-height: 1px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #21bab9;
+    text-transform: capitalize;
+}
+
+.reviews-body-body .stars i {
+    font-size: 14px;
+    color: #f06d6e;
+}
+
+.reviews-body-body .datetime span {
+    color: #ccc;
+    font-size: 13px;
+}
+
+.item-2-header h3 {
+    border: none;
+    font-weight: bold;
+    font-size: 16px;   
+}
+
+.reviews-body-body .custom-select {
+    border: none;
+    width: 150px!important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reviews-body-body .select-items {
+    background-color: #f4fafa;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.item-2-header {
+    padding: 1rem 0;
+}
+
+.item-2-header span {
+    margin-right: 10px;
+    color: #ccc;
+    font-size: 16px;
+}
